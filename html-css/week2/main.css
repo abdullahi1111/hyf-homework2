@@ -5,7 +5,7 @@ body {
 .container {
   margin: auto;
   height: 100%;
-  width: 100%;
+  max-width: 100%;
 }
 
 body {
@@ -53,9 +53,13 @@ h1 {
 .nav li a:hover {
   color: rgb(4, 26, 226);
 }
-
-.header-image {
-  width: 100%;
+.header-image img {
+  max-width: 100%;
+}
+@media only screen and (min-width: 600) {
+  .header-image img {
+    width: 500px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -181,8 +185,9 @@ h1 {
   .images {
     flex-direction: column;
     height: 100%;
-    width: 100%;
+    width: 70%;
     margin: 1px;
+    padding-right: 40px;
   }
 }
 
@@ -193,7 +198,7 @@ h1 {
   display: flex;
   list-style-type: none;
   padding: 30px;
-  width: 96%;
+  max-width: 97%;
 }
 .find-us {
   padding-left: 100px;
@@ -218,6 +223,7 @@ h1 {
   display: flex;
   flex-direction: column;
 }
+
 h6,
 h7,
 h8,
