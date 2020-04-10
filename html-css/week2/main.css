@@ -84,6 +84,7 @@ h1 {
   width: 40%;
   margin-right: 100px;
   padding-left: 150px;
+  margin-top: 10px;
 }
 .text-one h2 {
   margin-bottom: 20px;
@@ -92,7 +93,7 @@ h1 {
 .text-two {
   display: block;
   width: 60%;
-  padding-left: 80px;
+  padding-left: 100px;
   margin-right: 100px;
 }
 .text-two h3 {
@@ -144,6 +145,7 @@ h1 {
   display: block;
   width: 40%;
   margin-right: 100px;
+  margin-top: 60px;
 }
 .text-three h4 {
   margin-bottom: 20px;
@@ -156,7 +158,10 @@ h1 {
   margin-inline-start: 70px;
   margin-inline-end: 50px;
   margin-top: 10px;
-  margin-bottom: 100px;
+  margin-left: 70px;
+}
+.images h5 {
+  padding-left: 50px;
 }
 .images .i12images {
   flex-basis: 10%;
