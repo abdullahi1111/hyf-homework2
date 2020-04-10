@@ -74,7 +74,7 @@ h1 {
 .main-content-first {
   width: 100%;
   display: flex;
-  margin-top: 20px;
+  margin-top: 50px;
   flex-direction: row;
   height: 100%;
 }
